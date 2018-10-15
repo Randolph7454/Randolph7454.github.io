@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calorie Counter</title>
+    <link rel="stylesheet" href="Extra.css">
+    <div class="topnav">
+        <a class="active" href="Family.html">Family</a>
+        <a href="index.html">Me</a>
+        <a href="Hobbys.html">Hobbys</a>
+        <a href="tempBug.html">Temp Bug</a>
+        <a href="calorieCount.html">Calorie Counter</a>
+    </div>
+
+</head>
+<body>
+<form name="calCount">
+    <h4>Calorie Counter</h4>
+    <br><br>
+    Select a workout from the dropdown menu then click the button!
+    <br><br>
+    <select name="activities">
+        <option value="Walking">Walking</option>
+        <option value="Running">Running</option>
+        <option value="Lifting">Lifting</option>
+        <option value="Boxing"> Boxing</option>
+        <option value="Football">Football</option>
+        <option value="Watching tv">Watching tv</option>
+    </select>
+    <br><br>
+    Time spent performing activity: <input type="text" name="minutes">
+    <br><br>
+    <button type="button"onclick="calCount.result.value=calCount()">Count Em!</button>
+    <input type="text" readonly="true" name="result">
+</form>
+
+</body>
+</html>
