@@ -2,29 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Charlie Randolph</title>
-    <link rel="stylesheet" href="Extra.css"
+    <title>Convert Number Bases</title>
+    <script src="myScript.js"></script>
 </head>
 <body>
-<div class="topnav">
-    <a class="active" href="#home">Me</a>
-    <a href="Hobbys.html">Hobbys</a>
-    <a href="Family.html">Family</a>
-    <a href="tempBug.html">Temp Bug</a>
-    <a href="calorieCount.html">Calorie Counter</a>
-</div>
-<br>
-<center><h1>Me</h1></center>
-<center> This website is all about me! Charlie Randolph</center>
+<form name="toBinary">
+    <input type="text" id="result">
+           <button type="button" onclick="document.toBinary.result.value=tenToSmall()">toBinary</button>
+</form>
+<form name="toNum">
+      <input type="text" id="result">
+<button type="button" onclick="document.toNum.result.value=smallToTen()">toNum</button>
+</form>
+<form name="quickExample">
 <br><br>
-<center>I enjoy doing many things. In the website you will find information about me, my hobbys</center>
-<br>
-<center>and my family.</center>
-<br>
-<center> The things that I enjoy doing most are Lacrosse and playing video games which you will </center>
-<br>
-<center> learn more about in the Hobbys tab. </center>
-<br><br>
-<center> I live with my Mom, Step-dad, and uncle, whom you will learn more about in the Family tab</center>
+Input 1: <input type="text" name="num1">
+                      <br><br>
+Input 2: <input type="text" name="num2">
+    <br><br>
+    Result: <input type="text" name="result">
+    <br><br>
+    <button type="button" onclick="document.quickExample.result.value=addNums(Number(document.quickExample.num1.value),Number(document.quickExample.num2.value))">Test</button>
+
+
+
+</form>
+
 </body>
 </html>
