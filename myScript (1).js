@@ -2,7 +2,7 @@ function tenToSmall(num, base) //convert a base-10 number to a smaller base
 {
     //this function is expecting a number(num) in base 10
     //it will convert the number (num) to value of 'base'
-    num = 9 //number to convert
+    num = 9; //number to convert
     base = 2; //destination base
     smallNum =""; //store remainders here
 
