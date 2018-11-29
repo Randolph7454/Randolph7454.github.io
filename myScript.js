@@ -23,7 +23,7 @@ function calculate(expression) //ex. expression like 2+2=4
 
     for (var i = 0; i <= numLength; i++)
     {
-        if (expression.substr(i,1) === '+') || expression.substr(i,1) === '-' || expression.substr(i,1) === '*' || expression.substr(i,1) === '^' || expression.substr(i,1) === '/')
+     
 
 {
     var firstNum = Number(expression.substr(0, 1));
