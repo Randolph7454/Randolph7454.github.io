@@ -36,33 +36,33 @@ function checkAnswers()
     }
     if (document.quiz.a5.value === 'Contraband') {
         score++;
-        feedback.push("Question 3 is CORRREEECT!!1!!1!!")
+        feedback.push("Question 4 is CORRREEECT!!1!!1!!")
     }
     else {
-        feedback.push("Question 3 is WRONG! Answer is CONTRABAND")
+        feedback.push("Question 4 is WRONG! Answer is CONTRABAND")
     }
     if (document.quiz.a6A.checked === false && document.quiz.a6B.checked === true && document.quiz.a6C.checked === false && document.quiz.a6D.checked === false && document.quiz.a6E.checked === true) {
         score++;
-        feedback.push("Question 3 is CORRREEECT!!1!!1!!")
+        feedback.push("Question 5 is CORRREEECT!!1!!1!!")
     }
     else {
-        feedback.push("Question 3 is WRONG! Answer is X AND Y")
+        feedback.push("Question 5 is WRONG! Answer is X AND Y")
     }
     if (Q6Answer === 'sunbreaker') {
         //increase score by 1
         score++; //score plus 1
-        feedback.push("Question 1 is CORRRRRREEECT!!");
+        feedback.push("Question 6 is CORRRRRREEECT!!");
     }
     else {
-        feedback.push("Incorrect!! Question 1 is SUNBREAKER!");
+        feedback.push("Incorrect!! Question 6 is SUNBREAKER!");
     }
     if (Q7Answer === 'ratchet') {
         //increase score by 1
         score++; //score plus 1
-        feedback.push("Question 1 is CORRRRRREEECT!!");
+        feedback.push("Question 7 is CORRRRRREEECT!!");
     }
     else {
-        feedback.push("Incorrect!! Question 1 is RATCHET!");
+        feedback.push("Incorrect!! Question 7 is RATCHET!");
     }
 
     alert(score);
