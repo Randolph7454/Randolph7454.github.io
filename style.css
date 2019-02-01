@@ -1,0 +1,9 @@
+body {
+    background-image: url("img/bobby backwards.jpg");
+    background-repeat: no-repeat;
+}
+#myCanvas
+{
+    border: 2px solid #0bd3ff;
+
+}
